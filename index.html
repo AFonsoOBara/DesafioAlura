@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="iconeAlura.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio Alura Afonso</title>
+    
+</head>
+<body>  
+    <main class="main container">
+        <header class="cabecalho">
+            <img src="logo alura.png" alt="logo Alura">          
+        </header>
+
+    <div class="container-input">
+        <div class="input">
+            <textarea id="input-texto" placeholder="Digite seu texto aqui..."></textarea>
+            <p class="aviso"> <ion-icon name="alert"></ion-icon> Apenas letras maiusculas sem acento</p>
+        </div>
+
+    <div class="fundo" id="output">
+        <img src="ilustaçao.png" alt="ilustraçao">
+        <h2>Nenhuma mensagem encontrada</h2>
+        <span>Digite o texto que deseja criptografar ou descriptografar</span>
+    </div>    
+    </div>   
+    
+    <div class="buttons">
+        <div class="container-btn">
+            <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+            <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+        </div>
+    </div>
+
+    </main>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
